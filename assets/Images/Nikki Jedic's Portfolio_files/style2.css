@@ -13,7 +13,7 @@ header{
 	font-size: 2em;
 	font-weight: bold;
 	background-color: #ffffff;
-	border-bottom: 1px solid #cccccc;
+	border-bottom: 1px outset #cccccc;
 	width: 100%;
 	overflow: auto;
 }
@@ -72,7 +72,7 @@ header{
 		font-weight: bold;
 		color: #4aaaa5 ;
 		font-family: Georgia, Times, Times New Roman, Serif;
-		border-bottom: 2px dotted #dddddd;
+		border-bottom: 1px outset #dddddd;
 	}
 
 	#Profile{
@@ -80,7 +80,6 @@ header{
 		padding-top: 35px;
 		padding-left: 35px;
 		margin-right: 4px;
-		margin-bottom: 20px;
 	}
 		img#Profile{
 			max-width: 30%
@@ -111,7 +110,7 @@ header{
 		padding-top: 20px;
 		padding-left: 45px;
 		padding-bottom: 20px;
-		border-bottom: 2px dotted #dddddd;
+		border-bottom: 1px outset #dddddd;
 	}
 
 	.button{
@@ -123,7 +122,6 @@ header{
 
 #Footer{
 	clear: both;
-	width: 100%;
 	background: #666666;
 	color: #eee;
 	font-family: Arial, Helvetica neue, Helvetica, Sans-serif;
@@ -182,23 +180,19 @@ header{
 }
 
 .pictures{
-	margin: 25px 15px 0px 15px;
+	margin: 15px 15px 0px 15px;
 	position: relative;
 		z-index: 1;
-		top: 35px;
+		top: 20px;
 		left: 14px;
 	
 }
 
 .text{
-	position: relative;
+	position: absolute;
 		z-index: 2;
-		bottom: 24px;
-		left: 29px;
-	margin: 0;
-	padding-top: 10px;
 	width: 280px;
-	height: 35px;
+	padding: 10px;
 	background-color: #4aaaa5;
 	color: #eee;
 	font-size: 14pt;
