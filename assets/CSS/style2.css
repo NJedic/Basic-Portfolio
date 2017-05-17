@@ -159,5 +159,13 @@ header{
 }
 
 .sbutton{
-	background-color: #4aaaa5;
+	border: 0;
+	background: #4aaaa5;
+	font-family: Arial, Helvetica neue, Helvetica, Sans-serif;
+	font-size: 15px;
+	color: #eee;
+	padding: 10px 25px 10px 25px;
 }
+
+/*Additional CSS for portfolio.html*/
+
