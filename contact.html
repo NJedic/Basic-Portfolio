@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Nikki Jedic's Portfolio</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/CSS/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/CSS/style2.css">
 
 </head>
@@ -12,9 +14,9 @@
 		<h1 id="Headern">Nikki Jedic</h1>	
 	
 	<!--links-->
-		<a href="#" class="tab"><strong>About</strong></a>
-		<a href="#" class="tab"><strong>Portfolio</strong></a>
-		<a href="#" class="tab"><strong>Contact</strong></a>
+		<a href="index.html" class="tab"><strong>About</strong></a>
+		<a href="portfolio.html" class="tab"><strong>Portfolio</strong></a>
+		<a href="contact.html" class="tab"><strong>Contact</strong></a>
 		
 	</header>
 
@@ -24,21 +26,26 @@
 		<h1 id="Maintitle">Contact</h1>
 
 		<!--Actual Form-->
-		<form acton="/login" method="post">
+		<form action="/login" method="post" class="contact">
 			<label>
 				Name
-				<input type="text" name="fullname">
+				<br>
+				<input type="text" name="fullname" placeholder="John Smith" class="namebox">
 			</label>
+			
 			<label>
 				Email
-				<input type="Email" name="Email">
+				<br>
+				<input type="Email" name="Email" placeholder="Email@gmail.com" class="emailbox">
 			</label>
+			
 			<label>
 				Message
-				<textarea name="Message"></textarea>
+				<br>
+				<textarea name="Message" class="messagebox"></textarea>
 			</label>
-
-		<input type="submit" name="Submit" value="Submit">
+			<br>	
+			<input type="submit" name="Submit" value="Submit">
 
 		</form>
 	</section>
@@ -59,7 +66,7 @@
 
 	<!--Footer-->
 	<footer id= "Footer">
-		Copyright 2017 Nikki Jedic
+		&#169Copyright 2017 Nikki Jedic
 	</footer>
 
 
